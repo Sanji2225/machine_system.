@@ -159,3 +159,10 @@ As funcionalidades específicas da tela de admin no frontend (como criar Estabel
 - **Mapa Interativo:** O componente `MapaLavanderias.js` é um placeholder. Para uma funcionalidade de mapa real, seria necessário integrar uma biblioteca como `react-leaflet` (para OpenStreetMap) ou `@react-google-maps/api` (para Google Maps), o que pode envolver a obtenção de chaves de API.
 - **Processamento de Pagamento Real:** A funcionalidade de pagamento é uma simulação. Um sistema de pagamento real exigiria integração com um gateway de pagamento seguro.
 - **Atualização em Tempo Real:** As atualizações de status da máquina (após pagamento) podem exigir que o usuário atualize a página ou que uma lógica de polling/WebSockets seja implementada para atualizações em tempo real.
+  
+---
+
+## Autor
+
+Desenvolvido por **Wayne Lucas Santos**  
+GitHub: [https://github.com/Sanji2225](https://github.com/Sanji2225)
