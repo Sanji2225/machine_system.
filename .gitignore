@@ -1,0 +1,59 @@
+# ===============================
+# Node.js
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+.npm/
+.eslintcache
+
+# ===============================
+# Python / Django
+# ===============================
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+db.sqlite3
+local_settings.py
+.env
+.env.*
+*.env
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+
+# Migrations (opcional — remova se quiser versionar)
+**/migrations/
+!**/migrations/__init__.py
+
+# Media and static files
+/media/
+/static/
+/staticfiles/
+
+# IDEs (VSCode, JetBrains, etc.)
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Coverage / test
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+pytest_cache/
